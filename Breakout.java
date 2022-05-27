@@ -150,6 +150,7 @@ public class Breakout extends GDV5{
 		if (GDV5.KeysTyped[KeyEvent.VK_ENTER]) {
 			
 			start = true;
+			win.drawImage(image.background, 0, 0, Breakout.getMaxWindowX(), Breakout.getMaxWindowY(), null);
 			win.setColor(Color.WHITE);
 			//win.draw(b1);
 			//win.fill(b1);
